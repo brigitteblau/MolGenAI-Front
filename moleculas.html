@@ -4,26 +4,32 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>MolGenAI</title>
-  <link rel="stylesheet" href="moleculas.css" />
+  <link rel="icon" href="images/favicon.png" type="image/png">
+  <link rel="stylesheet" href="css/moleculas.css" />
 </head>
 <body>
-  <div class="sidebar">
+  <nav class="sidebar">
     <div class="logo">
-      <img src="assets/logo.svg" alt="MolGen.AI" />
-      <span class="brand">MolGen.AI</span>
+      <img src="images/logo.svg" alt="MolGen.AI" />
     </div>
     <p class="guardadas">Moléculas Guardadas</p>
     <div class="bottom-icons">
-      <img src="assets/icono-home.svg" alt="Inicio" />
-      <img src="assets/icono-info.svg" alt="Info" />
-      <img src="assets/icono-settings.svg" alt="Configuración" />
+      <a href="#"><img src="assets/icono-home.svg" alt="Inicio" /></a>
+      <a href="#"><img src="assets/icono-info.svg" alt="Info" /></a>
+      <a href="#"><img src="assets/icono-settings.svg" alt="Configuración" /></a>
     </div>
-  </div>
-  <div class="main">
-    <img src="assets/fondo.svg" class="background" alt="Fondo" />
+  </nav>
+
+ <main>
+  <div class="contenedor-input">
     <h1 class="titulo">Ingrese Moléculas</h1>
+    <input class="moleculas-input" placeholder="Escriba aquí las moléculas..." />
+  </div>
+
+  <div class="div-boton">
     <button class="btn-generar">Generar</button>
   </div>
-  <script src="script.js"></script>
+</main>
+
 </body>
 </html>
