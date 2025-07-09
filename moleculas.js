@@ -46,4 +46,6 @@ async function GetMoleculasNuevas() {
 }
 
 
-alert(data)
+//ella te pasa un objeto 
+
+// ducument.getelement.id("").textContent(data.molulas)
